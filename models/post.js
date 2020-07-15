@@ -7,6 +7,11 @@ module.exports= function(connection, DataTypes) {
             len: [1]
           }
         },
+        category: {
+          type: DataTypes.TEXT,
+          allowNull: false,
+          len: [1]
+        },
         body: {
           type: DataTypes.TEXT,
           allowNull: false,
@@ -23,12 +28,12 @@ module.exports= function(connection, DataTypes) {
             len: [1]
         },
         latitude: {
-          type: DataTypes.FLOAT(11, 10),
+          type: DataTypes.FLOAT(100, 10),
           allowNull: true,
           len: [1]
         },
         longitude: {
-          type: DataTypes.FLOAT(11, 10),
+          type: DataTypes.FLOAT(100, 10),
           allowNull: true,
           len: [1]
         }
