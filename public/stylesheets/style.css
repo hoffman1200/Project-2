@@ -1,7 +1,26 @@
-form.signup,
-form.login {
-  margin-top: 50px;
-}
 body {
-    background-color: black;
+  background-image: url("../assets/background.png");
+  background-color: #0e0220;
+ }
+
+h1{
+   color: #48e0e4;
+   font-weight: bold;
+   font-size: 18px;
+ }
+
+ h2{
+  color: #e40475;
+  font-size: 18px;
+}
+
+h3{
+  color: #48e0e4;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.toDo{
+  background-color: #d7fbf6;
+  font-size: 18px;
 }
