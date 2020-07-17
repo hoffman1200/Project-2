@@ -65,9 +65,7 @@ color: #d7fbf6!important;
 margin-left:1000px;
 }
 
-.activity-button:hover {
-background-color: #e40475;
-}
+
 
 .activity-info{
 margin:0 auto;
@@ -80,4 +78,8 @@ margin-bottom: 125px;
 .add-details{
 color:#d7fbf6;
 font-weight: bold;
+}
+
+.img1:hover{
+  content: url("../assets/button-theatre-hover.png");
 }
