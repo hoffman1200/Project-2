@@ -1,5 +1,5 @@
 module.exports= function(connection, DataTypes) {
-    var Post = connection.define("Post", {
+    var activity = connection.define("activity", {
         title: {
           type: DataTypes.STRING,
           allowNull: false,
@@ -12,7 +12,7 @@ module.exports= function(connection, DataTypes) {
           allowNull: false,
           len: [1]
         },
-        body: {
+        description: {
           type: DataTypes.TEXT,
           allowNull: false,
           len: [1]
@@ -39,5 +39,5 @@ module.exports= function(connection, DataTypes) {
         }
       });
 
-    return Post;        
+    return activity;        
 };
