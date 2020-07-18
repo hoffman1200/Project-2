@@ -1,26 +1,119 @@
 body {
   background-image: url("../assets/background.png");
-  background-color: #0e0220;
- }
-
-h1{
-   color: #48e0e4;
-   font-weight: bold;
-   font-size: 18px;
- }
-
- h2{
-  color: #e40475;
-  font-size: 18px;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
 }
 
-h3{
+.category-buttons {
+width: 400px;
+border: none;
+margin:0 auto;
+}
+
+img {
+width: 50%;
+}
+
+.category-title {
+color:#d7fbf6;
+text-align: center;
+font-weight: bold;
+}
+
+tr {
+border-style: hidden;
+}
+
+form {
+width: 400px;
+float:left;
+}
+
+label {
+color: #e40475;
+font-weight: bold;
+}
+
+.form-control {
+background-color: #d7fbf6;
+color:#0e0220;
+}
+
+.btn-primary {
+background-color: #e40475;
+color:#d7fbf6;
+border: none;
+}
+
+.btn-primary:hover {
+background-color: #48e0e4;
+color:#0e0220;
+border: none;
+}
+
+.nav-item {
+color: #48e0e4!important;
+font-weight: bold;
+text-align: left;
+}
+
+.nav-item:hover {
+color: #d7fbf6!important;
+}
+
+.navbar-nav{
+margin-left:1000px;
+}
+
+.activity-info{
+margin:0 auto;
+}
+
+.navbar {
+margin-bottom: 125px;
+}
+
+.add-details{
+color:#d7fbf6;
+font-weight: bold;
+}
+
+.img1:hover{
+  content: url("../assets/button-theatre-hover.png");
+}
+
+#detailsCol {
+  display: none;
+}
+
+/*Styling for bucketlist html*/
+
+h1{
   color: #48e0e4;
   font-weight: bold;
   font-size: 18px;
 }
 
+h2{
+ color: #e40475;
+ font-size: 18px;
+}
+
+h3{
+ color: #48e0e4;
+ font-size: 18px;
+}
+
 .toDo{
-  background-color: #d7fbf6;
-  font-size: 18px;
+ background-color: #d7fbf6;
+ max-width: 3000px;
+ font-size: 16px;
+}
+
+p{
+  vertical-align: middle;
+}
+
+.bucketlistImg{
+  width: 15%
 }
