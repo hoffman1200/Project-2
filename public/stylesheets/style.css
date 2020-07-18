@@ -83,3 +83,7 @@ font-weight: bold;
 .img1:hover{
   content: url("../assets/button-theatre-hover.png");
 }
+
+#detailsCol {
+  display: none;
+}
