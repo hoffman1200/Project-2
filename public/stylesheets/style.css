@@ -65,8 +65,6 @@ color: #d7fbf6!important;
 margin-left:1000px;
 }
 
-
-
 .activity-info{
 margin:0 auto;
 }
@@ -86,4 +84,36 @@ font-weight: bold;
 
 #detailsCol {
   display: none;
+}
+
+/*Styling for bucketlist html*/
+
+h1{
+  color: #48e0e4;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h2{
+ color: #e40475;
+ font-size: 18px;
+}
+
+h3{
+ color: #48e0e4;
+ font-size: 18px;
+}
+
+.toDo{
+ background-color: #d7fbf6;
+ max-width: 3000px;
+ font-size: 16px;
+}
+
+p{
+  vertical-align: middle;
+}
+
+.bucketlistImg{
+  width: 15%
 }
