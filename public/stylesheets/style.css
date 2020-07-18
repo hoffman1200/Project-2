@@ -83,3 +83,27 @@ font-weight: bold;
 .img1:hover{
   content: url("../assets/button-theatre-hover.png");
 }
+
+.img2:hover{
+  content: url("../assets/button-travel-hover.png");
+}
+
+.img3:hover{
+  content: url("../assets/button-outdoors-hover.png");
+}
+
+.img4:hover{
+  content: url("../assets/button-movies-hover.png");
+}
+
+.img5:hover{
+  content: url("../assets/button-bar-hover.png");
+}
+
+.img6:hover{
+  content: url("../assets/button-concerts-hover.png");
+}
+
+.img7:hover{
+  content: url("../assets/button-train-hover.png");
+}
